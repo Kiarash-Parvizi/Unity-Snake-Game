@@ -28,10 +28,10 @@ public class Score : MonoBehaviour {
     }
     static void Dis() {
         Env_Generator.sprites.Clear();
-        score = -1; ADD();
     }
 
     public void Retry() {
+        score = -1; ADD();
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }

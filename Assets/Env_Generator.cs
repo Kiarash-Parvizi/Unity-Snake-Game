@@ -68,7 +68,7 @@ public class Env_Generator : MonoBehaviour
                             foreach (I2 block in tail) {
                                 if (tail[i] == foodPos) { b = true; break; }
                             }
-                            if (pos == foodPos) b = false;
+                            if (pos == foodPos) b = true;
                             if (!b) { goto Final; }
                         }
                     }
